@@ -9,7 +9,7 @@ cp -r '/Users/sujie/Library/Mobile Documents/iCloud~md~obsidian/Documents/docs/b
 
 formatted_time=$(date "+%Y-%m-%d %H:%M:%S")
 
-cd ./src/obsidian/posts
+cd ./src/posts/obsidian
 
 git add .
 
