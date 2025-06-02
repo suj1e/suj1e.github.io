@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Blog</title><meta name="description" content="业精于勤而荒于嬉">
+    <link rel="preload" href="/assets/style-BsdOmLtf.css" as="style"><link rel="stylesheet" href="/assets/style-BsdOmLtf.css">
+    <link rel="modulepreload" href="/assets/app-Dn-EoXLZ.js"><link rel="modulepreload" href="/assets/hashcode与equals.html-DFUZl8aG.js">
+    <link rel="prefetch" href="/assets/index.html-B_GqMAv7.js" as="script"><link rel="prefetch" href="/assets/get-started.html-BMBJ7ktv.js" as="script"><link rel="prefetch" href="/assets/sticky.html-SA0OQH0J.js" as="script"><link rel="prefetch" href="/assets/事务一致性.html-BbHiR9rX.js" as="script"><link rel="prefetch" href="/assets/多副本一致性.html-Cn5HaAPU.js" as="script"><link rel="prefetch" href="/assets/vim.html-BjmYqLDE.js" as="script"><link rel="prefetch" href="/assets/力扣题单.html-CHwTn-qR.js" as="script"><link rel="prefetch" href="/assets/动态规划.html-DuaNV4V2.js" as="script"><link rel="prefetch" href="/assets/事务.html-1FvDi--f.js" as="script"><link rel="prefetch" href="/assets/多副本一致性.html-BSNYQ1ZK.js" as="script"><link rel="prefetch" href="/assets/AOP.html-BQrg9qKm.js" as="script"><link rel="prefetch" href="/assets/FactoryBean.html-dqU18SND.js" as="script"><link rel="prefetch" href="/assets/IOC.html-B_1fOE6j.js" as="script"><link rel="prefetch" href="/assets/Star.html-BSarWEiK.js" as="script"><link rel="prefetch" href="/assets/循环依赖.html-byjQ3ls9.js" as="script"><link rel="prefetch" href="/assets/Examples.html-Da5SAI5E.js" as="script"><link rel="prefetch" href="/assets/原理.html-BX6GfD6q.js" as="script"><link rel="prefetch" href="/assets/IO.html-D0pupzZn.js" as="script"><link rel="prefetch" href="/assets/值传递.html-CllrcCkF.js" as="script"><link rel="prefetch" href="/assets/动态代理.html-DN-wuSyq.js" as="script"><link rel="prefetch" href="/assets/注解.html-DtZbcBoV.js" as="script"><link rel="prefetch" href="/assets/零拷贝.html-CA7EKWDC.js" as="script"><link rel="prefetch" href="/assets/404.html-B3upmha6.js" as="script"><link rel="prefetch" href="/assets/index.html-B9fxfI64.js" as="script"><link rel="prefetch" href="/assets/index.html-SWFC-6bN.js" as="script"><link rel="prefetch" href="/assets/index.html-BzMSg60N.js" as="script"><link rel="prefetch" href="/assets/index.html-Dd_1_7nb.js" as="script"><link rel="prefetch" href="/assets/index.html-FcnCxHHE.js" as="script"><link rel="prefetch" href="/assets/index.html-ChAG_6Yy.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><img class="vp-site-logo" src="/images/readme.jpg" alt="Blog"><span class="vp-site-name vp-hide-mobile" aria-hidden="true">Blog</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/" aria-label="Home"><!--[--><!--[--><!--]--><!--]-->Home<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/article/" aria-label="Article"><!--[--><!--[--><!--]--><!--]-->Article<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/category/" aria-label="Category"><!--[--><!--[--><!--]--><!--]-->Category<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/tag/" aria-label="Tag"><!--[--><!--[--><!--]--><!--]-->Tag<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/timeline/" aria-label="Timeline"><!--[--><!--[--><!--]--><!--]-->Timeline<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/" aria-label="Home"><!--[--><!--[--><!--]--><!--]-->Home<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/article/" aria-label="Article"><!--[--><!--[--><!--]--><!--]-->Article<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/category/" aria-label="Category"><!--[--><!--[--><!--]--><!--]-->Category<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/tag/" aria-label="Tag"><!--[--><!--[--><!--]--><!--]-->Tag<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/timeline/" aria-label="Timeline"><!--[--><!--[--><!--]--><!--]-->Timeline<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading"> <!----></p><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div><h2 id="equals方法" tabindex="-1"><a class="header-anchor" href="#equals方法"><span>equals方法</span></a></h2><p><code>Object#equals</code></p><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java"><pre><code><span class="line">public boolean equals(Object obj) {</span>
+<span class="line">    return (this == obj);</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>equals是顶层方法，可以看出默认和<code>==</code>一致，也就是比较内存地址是否相等。</p><h2 id="equals作用" tabindex="-1"><a class="header-anchor" href="#equals作用"><span>equals作用</span></a></h2><h3 id="没有重写equals的情况" tabindex="-1"><a class="header-anchor" href="#没有重写equals的情况"><span>没有重写equals的情况</span></a></h3><p>没有重写equals，效果其实等同于==</p><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java"><pre><code><span class="line">public class Sample1 {</span>
+<span class="line">    public static void main(String[] args) {</span>
+<span class="line">        Person p1 = new Person(20, &quot;lisi&quot;);</span>
+<span class="line">        Person p2 = new Person(20, &quot;lisi&quot;);</span>
+<span class="line">        System.out.println(p1.equals(p2));</span>
+<span class="line">    }</span>
+<span class="line">    </span>
+<span class="line">    private static class Person {</span>
+<span class="line">        int age;</span>
+<span class="line">        String name;</span>
+<span class="line">        </span>
+<span class="line">        public Person(int age, String name) {</span>
+<span class="line">            this.age = age;</span>
+<span class="line">            this.name = name;</span>
+<span class="line">        }</span>
+<span class="line">    }</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出为false 没有重写equals，则比较的是对象的内存地址</p><h3 id="重写了equals的情况" tabindex="-1"><a class="header-anchor" href="#重写了equals的情况"><span>重写了equals的情况</span></a></h3><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java"><pre><code><span class="line">public class Sample2 {</span>
+<span class="line">    public static void main(String[] args) {</span>
+<span class="line">        Person p1 = new Person(20, &quot;lisi&quot;);</span>
+<span class="line">        Person p2 = new Person(20, &quot;lisi&quot;);</span>
+<span class="line">        System.out.println(p1.equals(p2));</span>
+<span class="line">    }</span>
+<span class="line">    </span>
+<span class="line">    private static class Person {</span>
+<span class="line">        int age;</span>
+<span class="line">        String name;</span>
+<span class="line">        </span>
+<span class="line">        public Person(int age, String name) {</span>
+<span class="line">            this.age = age;</span>
+<span class="line">            this.name = name;</span>
+<span class="line">        }</span>
+<span class="line">        </span>
+<span class="line">        @Override</span>
+<span class="line">        public boolean equals(Object o) {</span>
+<span class="line">            if(o == null) {</span>
+<span class="line">                return false;</span>
+<span class="line">            }</span>
+<span class="line">            if(this == o) {</span>
+<span class="line">                return true;</span>
+<span class="line">            }</span>
+<span class="line">            if(this.getClass() != o.getClass()) {</span>
+<span class="line">                return false;</span>
+<span class="line">            }</span>
+<span class="line">            Person p = (Person)o;</span>
+<span class="line">            return name.equals(p.name) &amp;&amp; age == p.age;</span>
+<span class="line">        }</span>
+<span class="line">    }</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出true 重写equals有几个必须要遵守的点：</p><ol><li>对称性，x.equals(y)为true，则y.equals(x)也必须为true</li><li>反射性，x.equals(x)必须为true</li><li>类推性，x.equals(y)为true，y.equals(z)为true，那么z.equals(x)也必须为true</li><li>一致性，x.equals(y)为true，只要x和y内容不变，无论重复多少次x.equals(y)，那么都必须为true；x.equals(不同类型)必须返回false</li><li>非空性，x.equals(null)都必须返回false</li></ol><h2 id="equals与-的区别" tabindex="-1"><a class="header-anchor" href="#equals与-的区别"><span>equals与<code>==</code>的区别</span></a></h2><ol><li><code>==</code>：它的作用是判断两个对象的内存地址是否对象</li><li>equals：它的作用是判断两个对象是否相等，有两种情况 <ol><li>没有重写equals方法，等价于<code>==</code></li><li>重写了equals方法，比较两个对象的内容是否相等，若内容相等，则equals返回true</li></ol></li></ol><h2 id="hashcode方法" tabindex="-1"><a class="header-anchor" href="#hashcode方法"><span>hashCode方法</span></a></h2><p>分两种情况</p><h3 id="不会创建-类对应的散列表" tabindex="-1"><a class="header-anchor" href="#不会创建-类对应的散列表"><span>不会创建“类对应的散列表”</span></a></h3><p>不会在HashSet、HashMap、Hashtable等这些哈希表数据结构容器中用到该类，则该类符合【不会创建“类对应的散列表”】类型</p><ol><li>此时hashCode方法和equals方法是无关的</li><li>这种情况，equals用于表示两个对象是否相等，与hashCode无关</li></ol><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java"><pre><code><span class="line">public class Sample3 {</span>
+<span class="line"></span>
+<span class="line">    public static void main(String[] args) {</span>
+<span class="line">        Person p1 = new Person(20, &quot;lisi&quot;);</span>
+<span class="line">        Person p2 = new Person(20, &quot;lisi&quot;);</span>
+<span class="line">        Person p3 = new Person(30, &quot;lisi&quot;);</span>
+<span class="line">        System.out.printf(&quot;p1.equals(p2) : %s; p1(%d) p2(%d)\n&quot;, p1.equals(p2), p1.hashCode(), p2.hashCode());</span>
+<span class="line">        System.out.printf(&quot;p1.equals(p3) : %s; p1(%d) p3(%d)\n&quot;, p1.equals(p3), p1.hashCode(), p3.hashCode());</span>
+<span class="line">    }</span>
+<span class="line">    </span>
+<span class="line">    private static class Person {</span>
+<span class="line">        int age;</span>
+<span class="line">        String name;</span>
+<span class="line">        </span>
+<span class="line">        public Person(int age, String name) {</span>
+<span class="line">            this.age = age;</span>
+<span class="line">            this.name = name;</span>
+<span class="line">        }</span>
+<span class="line">        </span>
+<span class="line">        @Override</span>
+<span class="line">        public boolean equals(Object o) {</span>
+<span class="line">            if(o == null) {</span>
+<span class="line">                return false;</span>
+<span class="line">            }</span>
+<span class="line">            if(this == o) {</span>
+<span class="line">                return true;</span>
+<span class="line">            }</span>
+<span class="line">            if(this.getClass() != o.getClass()) {</span>
+<span class="line">                return false;</span>
+<span class="line">            }</span>
+<span class="line">            Person p = (Person)o;</span>
+<span class="line">            return name.equals(p.name) &amp;&amp; age == p.age;</span>
+<span class="line">        }</span>
+<span class="line">    }</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这种情况就是没在哈希结构的容器中使用到，所以跟hashCode没啥关系</p><h3 id="会创建-类对应的散列表" tabindex="-1"><a class="header-anchor" href="#会创建-类对应的散列表"><span>会创建“类对应的散列表”</span></a></h3><p>此种情况可以理解为会在哈希结构的容器中使用到，所以必然与hashCode有关，比如用到了HashSet 在这种情况下，hashCode与equals是有一定关系的</p><ol><li>如果两个对象相等（equals为true），那么它们hashCode一定相等</li><li>如果两个对象hashCode相等，它们不一定相等，此种情况也叫哈希冲突</li></ol><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java"><pre><code><span class="line">public class Sample4 {</span>
+<span class="line"></span>
+<span class="line">    public static void main(String[] args) {</span>
+<span class="line">        Person p1 = new Person(20, &quot;lisi&quot;);</span>
+<span class="line">        Person p2 = new Person(20, &quot;lisi&quot;);</span>
+<span class="line">        Person p3 = new Person(30, &quot;lisi&quot;);</span>
+<span class="line">        System.out.printf(&quot;p1.equals(p2) : %s; p1(%d) p2(%d)\n&quot;, p1.equals(p2), p1.hashCode(), p2.hashCode());</span>
+<span class="line">        System.out.printf(&quot;p1.equals(p3) : %s; p1(%d) p3(%d)\n&quot;, p1.equals(p3), p1.hashCode(), p3.hashCode());</span>
+<span class="line">    }</span>
+<span class="line">    </span>
+<span class="line">    private static class Person {</span>
+<span class="line">        int age;</span>
+<span class="line">        String name;</span>
+<span class="line">        </span>
+<span class="line">        public Person(int age, String name) {</span>
+<span class="line">            this.age = age;</span>
+<span class="line">            this.name = name;</span>
+<span class="line">        }</span>
+<span class="line">        </span>
+<span class="line">        @Override</span>
+<span class="line">        public int hashCode() {</span>
+<span class="line">            int i = name.hashCode();</span>
+<span class="line">            return i % age;</span>
+<span class="line">        }</span>
+<span class="line">        </span>
+<span class="line">        @Override</span>
+<span class="line">        public boolean equals(Object o) {</span>
+<span class="line">            if(o == null) {</span>
+<span class="line">                return false;</span>
+<span class="line">            }</span>
+<span class="line">            if(this == o) {</span>
+<span class="line">                return true;</span>
+<span class="line">            }</span>
+<span class="line">            if(this.getClass() != o.getClass()) {</span>
+<span class="line">                return false;</span>
+<span class="line">            }</span>
+<span class="line">            Person p = (Person)o;</span>
+<span class="line">            return name.equals(p.name) &amp;&amp; age == p.age;</span>
+<span class="line">        }</span>
+<span class="line">    }</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>也就是说之所以重写equals要重写hashCode，就是因为必须保证以哈希表为数据结构的容器（比如HashSet）添加元素时的正确性。</p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 13156660820@163.com">sujie</span><!----><!--]--><!--]--></span></div></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Dn-EoXLZ.js" defer></script>
+  </body>
+</html>
