@@ -3,7 +3,7 @@
 # 拷贝ob的博客目录到posts下
 
 rm -rf ./src/posts/obsidian
-cp -r '/Users/sujie/Library/Mobile Documents/iCloud~md~obsidian/Documents/docs/blog/' ./src/posts/obsidian/
+cp -r '/Users/sujie/Library/Mobile Documents/iCloud~md~obsidian/Documents/blog/' ./src/posts/obsidian/
 
 # git提交
 
