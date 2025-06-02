@@ -2,8 +2,9 @@
 icon: pen-to-square
 date: 2025-06-02
 category:
-  - 语言
+  - topic
 tags:
+  - 语言
   - java
 ---
 # hashcode与equals
