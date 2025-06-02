@@ -22,7 +22,7 @@ export default navbar([
       {
         text: "lang",
         icon: "pen-to-square",
-        prefix: "blog/lang/Java/",
+        prefix: "blog/语言/Java/",
         children: [
             "hashcode与equals",
             "动态代理",
