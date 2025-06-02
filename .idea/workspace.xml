@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebf73335-16e4-49f0-b879-8531fd97dd5f" name="Changes" comment="feat: init" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;suj1e&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/suj1e/suj1e.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;69da828c-7983-46ea-9440-7af66bcfc366&quot;
+  }
+}</component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleUserHome" value="$MAVEN_REPOSITORY$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="threads" value="8" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="$USER_HOME$/.sdkman/candidates/maven/3.9.9/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2uXKH8HwZqHk7Qfsj7swQgtnVC4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sujie/workspace/github/suj1e.github.io/src/posts/obsidian/lang/java",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/sujie/Applications/IntelliJ IDEA Ultimate.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts/obsidian/lang/java" />
+      <recent name="$PROJECT_DIR$/docs/posts/obsidian/语言/Java" />
+      <recent name="$PROJECT_DIR$/docs/posts/obsidian" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebf73335-16e4-49f0-b879-8531fd97dd5f" name="Changes" comment="" />
+      <created>1701940342371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701940342371</updated>
+      <workItem from="1701940343547" duration="8000" />
+      <workItem from="1702001955271" duration="81000" />
+      <workItem from="1705897731323" duration="999000" />
+      <workItem from="1733414265085" duration="636000" />
+      <workItem from="1742389390826" duration="1027000" />
+      <workItem from="1742568778157" duration="169000" />
+      <workItem from="1742570010951" duration="9000" />
+      <workItem from="1748706780413" duration="1930000" />
+      <workItem from="1748794375491" duration="964000" />
+      <workItem from="1748796612455" duration="597000" />
+      <workItem from="1748833402123" duration="24000" />
+      <workItem from="1748833662380" duration="916000" />
+      <workItem from="1748835746790" duration="874000" />
+      <workItem from="1748840525526" duration="2169000" />
+      <workItem from="1748842879734" duration="9000" />
+      <workItem from="1748843259139" duration="2882000" />
+      <workItem from="1748851575684" duration="4227000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: init">
+      <option name="closed" value="true" />
+      <created>1742389421015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742389421015</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: init">
+      <option name="closed" value="true" />
+      <created>1742389529568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742389529568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docs: sticky demo">
+      <option name="closed" value="true" />
+      <created>1742389608001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742389608001</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: Modify the GitHub workflow branch">
+      <option name="closed" value="true" />
+      <created>1742568838925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742568838925</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: Modify the GitHub workflow branch">
+      <option name="closed" value="true" />
+      <created>1742568935049</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742568935049</updated>
+    </task>
+    <task id="LOCAL-00006" summary="docs: add copyOb2Posts.sh">
+      <option name="closed" value="true" />
+      <created>1748842836218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748842836218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docs: add copyOb2Posts.sh">
+      <option name="closed" value="true" />
+      <created>1748842886574</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748842886574</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docs: add copyOb2Posts.sh">
+      <option name="closed" value="true" />
+      <created>1748846923528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748846923528</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: use theme-hope">
+      <option name="closed" value="true" />
+      <created>1748853981309</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748853981309</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: init">
+      <option name="closed" value="true" />
+      <created>1748855384878</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748855384878</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: sticky demo" />
+    <MESSAGE value="chore: Modify the GitHub workflow branch" />
+    <MESSAGE value="docs: add copyOb2Posts.sh" />
+    <MESSAGE value="refactor: use theme-hope" />
+    <MESSAGE value="feat: init" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
