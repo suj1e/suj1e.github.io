@@ -13,6 +13,6 @@ cd ./docs/posts
 
 git add .
 
-git commit -m "publish:cpOb2Posts, $formatted_time"
+git commit -m "publish: cpOb2Posts, $formatted_time"
 
 git push
