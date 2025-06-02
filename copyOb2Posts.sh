@@ -11,6 +11,8 @@ formatted_time=$(date "+%Y-%m-%d %H:%M:%S")
 
 cd ./src/posts/blog
 
+rm -rf .obsidian
+
 git add .
 
 git commit -m "publish: cpOb2Posts, $formatted_time"
