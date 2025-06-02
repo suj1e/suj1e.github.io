@@ -20,6 +20,14 @@ export default navbar([
         ],
       },
       {
+        text: "lang",
+        icon: "pen-to-square",
+        prefix: "obsidian/lang/java/",
+        children: [
+            "动态代理",
+        ],
+      },
+      {
         text: "香蕉",
         icon: "pen-to-square",
         prefix: "banana/",
