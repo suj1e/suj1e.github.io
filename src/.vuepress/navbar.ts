@@ -22,7 +22,7 @@ export default navbar([
       {
         text: "lang",
         icon: "pen-to-square",
-        prefix: "obsidian/lang/Java/",
+        prefix: "blog/lang/Java/",
         children: [
             "hashcode与equals",
             "动态代理",
