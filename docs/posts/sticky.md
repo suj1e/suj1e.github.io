@@ -5,7 +5,7 @@ category:
 tag:
   - tag A
 sticky: true
-excerpt: <p>A sticky article demo.</p>
+excerpt: <p>A sticky article.</p>
 ---
 
 # Sticky Article
