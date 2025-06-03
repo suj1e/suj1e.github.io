@@ -16,5 +16,8 @@
     "vue": "^3.5.15",
     "vuepress": "2.0.0-rc.23",
     "vuepress-theme-hope": "2.0.0-rc.89"
+  },
+  "dependencies": {
+    "feishu-pages": "^0.7.6"
   }
 }
