@@ -50,29 +50,28 @@ jobs:
           FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
           OUTPUT_DIR: ./dist
           BASE_URL: https://suj1e.github.io/feishu-pages/
-        uses: longbridge/feishu-pages@main
-#        run: npx feishu-pages
-
-      - name: Build Website
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: |
-          mkdir docs
-          cp -r dist/docs/* docs/
-          cp dist/docs.json ./
-          npm
-          npm run docs:build
+        run: npx feishu-pages
 
 #      - name: Build Website
+#        env:
+#          NODE_OPTIONS: --max_old_space_size=8192
 #        run: |
 #          mkdir docs
 #          cp -r dist/docs/* docs/
 #          cp dist/docs.json ./
-#
-#      - name: 构建文档
-#        env:
-#          NODE_OPTIONS: --max_old_space_size=8192
-#        run: npm run docs:build
+#          npm
+#          npm run docs:build
+
+      - name: Build Website
+        run: |
+          mkdir docs
+          cp -r dist/docs/* docs/
+          cp dist/docs.json ./
+
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: npm run docs:build
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
