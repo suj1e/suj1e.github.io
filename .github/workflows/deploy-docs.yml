@@ -45,7 +45,8 @@ jobs:
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
-        run: npx feishu-pages
+        uses: longbridge/feishu-pages@main
+        # run: npx feishu-pages
 
       - name: Build Website
         run: |

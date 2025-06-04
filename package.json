@@ -8,7 +8,6 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "feishu-pages": "^0.7.6",
     "markdown-it-mathjax3": "^4.3.2"
   }
 }
