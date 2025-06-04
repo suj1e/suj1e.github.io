@@ -38,6 +38,7 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
+      - uses: actions/checkout@v4
       - uses: actions/cache@v4
         with:
           path: dist/.cache
@@ -49,7 +50,7 @@ jobs:
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
           OUTPUT_DIR: ./dist
-          BASE_URL: https://suj1e.github.io/feishu-pages/
+          BASE_URL: https://flooc.cn/feishu-pages/
         run: npx feishu-pages
 
       - name: Build Website
