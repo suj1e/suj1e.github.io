@@ -38,8 +38,8 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
-      - uses: actions/checkout@v3
-      - uses: actions/cache@v3
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
         with:
           path: dist/.cache
           key: cache-dist
@@ -49,9 +49,7 @@ jobs:
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
-          OUTPUT_DIR: ./dist
-          BASE_URL: https://longbridge.github.io/feishu-pages/
-        uses: longbridge/feishu-pages@main
+        run: npx feishu-pages
 
       - name: Build Website
         env:
