@@ -1,1 +1,0 @@
-FactoryBean 最常见的使用手法就是类似于将**接口**类注册为bean，比如jpa的repository生命，feign的client这种，然后走代理切面执行方法，这就是factoryBean的核心，当然本质上还是为了是封装复杂bean的细节。

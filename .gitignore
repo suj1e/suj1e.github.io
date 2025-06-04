@@ -7,3 +7,4 @@ src/.vuepress/dist/
 .idea
 .obsidian
 dist
+.cache

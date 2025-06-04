@@ -22,11 +22,9 @@ export default navbar([
       {
         text: "lang",
         icon: "pen-to-square",
-        prefix: "blog/语言/Java/",
+        prefix: "feishu/",
         children: [
-            "hashcode与equals",
-            "动态代理",
-            "注解",
+          { text: "SUMMARY", icon: "pen-to-square", link: "SUMMARY" },
         ],
       },
       {
