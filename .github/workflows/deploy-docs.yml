@@ -38,7 +38,6 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
-      - uses: actions/checkout@v4
       - uses: actions/cache@v4
         with:
           path: dist/.cache
