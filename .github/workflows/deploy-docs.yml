@@ -52,16 +52,6 @@ jobs:
           BASE_URL: https://suj1e.github.io/feishu-pages/
         run: npx feishu-pages
 
-#      - name: Build Website
-#        env:
-#          NODE_OPTIONS: --max_old_space_size=8192
-#        run: |
-#          mkdir docs
-#          cp -r dist/docs/* docs/
-#          cp dist/docs.json ./
-#          npm
-#          npm run docs:build
-
       - name: Build Website
         run: |
           mkdir docs
