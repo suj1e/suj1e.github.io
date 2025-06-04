@@ -45,8 +45,6 @@ jobs:
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
-          OUTPUT_DIR: ./dist
-          BASE_URL: https://suj1e.github.io/feishu-pages/
         run: npx feishu-pages
 
       - name: Build Website
