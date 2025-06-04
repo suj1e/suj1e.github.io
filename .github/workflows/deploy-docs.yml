@@ -20,8 +20,6 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-
-
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
@@ -33,20 +31,30 @@ jobs:
           echo "//packages.aliyun.com/638a07cb09a6ccfdd6a1f934/npm/npm-registry/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
 
       - name: 安装依赖
+        run: npm ci
+
+      - name: Exporting
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
+        run: npx feishu-pages
+
+      - name: Build Website
         run: |
-          corepack enable
-          npm ci
+          mkdir docs
+          cp -r dist/docs/* docs/
+          cp dist/docs.json ./
 
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
-          > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署文档
           branch: gh-pages
-          folder: src/.vuepress/dist
+          folder: .vitepress/dist
