@@ -38,23 +38,29 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
+      - uses: actions/checkout@v3
+      - uses: actions/cache@v3
+        with:
+          path: dist/.cache
+          key: cache-dist
+
       - name: Exporting
         env:
           FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_SPACE_ID: ${{ secrets.FEISHU_SPACE_ID }}
-        run: npx feishu-pages
+          OUTPUT_DIR: ./dist
+          BASE_URL: https://longbridge.github.io/feishu-pages/
+        uses: longbridge/feishu-pages@main
 
       - name: Build Website
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
         run: |
           mkdir docs
           cp -r dist/docs/* docs/
           cp dist/docs.json ./
-
-      - name: 构建文档
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: npm run docs:build
+          npm run docs:build
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
