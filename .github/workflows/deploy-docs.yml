@@ -8,8 +8,11 @@ on:
   schedule:
     - cron: '0 */6 * * *'
 
+# 设置 GITHUB_TOKEN 的权限，以允许部署到 GitHub Pages
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   deploy-gh-pages:
@@ -51,8 +54,7 @@ jobs:
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          npm run docs:build
+        run: npm run docs:build
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
