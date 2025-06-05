@@ -51,6 +51,7 @@ export default defineConfig({
   // base: '/feishu-pages/',
   base: '/',
   ignoreDeadLinks: true,
+  lastUpdated: true,
   // locales: {
   //   en: {
   //     label: 'English',
