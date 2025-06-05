@@ -48,8 +48,6 @@ const docsSidebarZHCN = convertDocsToSidebars(docs, 'zh-CN');
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'zh-CN',
-  // lang: 'en-US',
   title: 'Blog',
   // title: 'Feishu Pages',
   // base: '/feishu-pages/',
@@ -73,10 +71,20 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    outline: [2, 3],
+    outline: {
+      [2, 3],
+      '页面导航',
+    }
     search: {
       provider: 'local'
     },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    darkModeSwitchLabel: '主题',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2025-present Flooc'
