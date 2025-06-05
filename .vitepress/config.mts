@@ -76,7 +76,12 @@ export default defineConfig({
       provider: 'local'
     },
     nav: [
-      { text: 'Home', link: '/' },
+      {
+        text: 'Home',
+        link: '/',
+        // 折叠
+        collapsed: true,
+      },
       {
         text: 'Releases',
         link: '/releases',
