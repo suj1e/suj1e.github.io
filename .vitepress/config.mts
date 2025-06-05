@@ -71,6 +71,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: [2, 3],
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       {
