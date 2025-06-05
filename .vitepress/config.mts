@@ -72,9 +72,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: {
-      [2, 3],
-      '页面导航',
-    }
+      level: [2, 3],
+      label: '页面导航',
+    },
     search: {
       provider: 'local'
     },
