@@ -46,12 +46,12 @@ const docsSidebarZHCN = convertDocsToSidebars(docs, 'zh-CN');
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   title: 'Blog',
   // title: 'Feishu Pages',
   // base: '/feishu-pages/',
   base: '/',
   ignoreDeadLinks: true,
-  lastUpdated: true,
   // locales: {
   //   en: {
   //     label: 'English',
