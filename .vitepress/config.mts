@@ -31,6 +31,8 @@ const convertDocsToSidebars = (
     let sidebar: DefaultTheme.SidebarItem = {
       text: doc.title,
       link: '/' + doc.slug,
+      // 折叠
+      collapsed: true,
     };
     if (doc.children.length > 0) {
       sidebar.items = convertDocsToSidebars(doc.children);
@@ -83,8 +85,6 @@ export default defineConfig({
       {
         text: 'Home',
         link: '/',
-        // 折叠
-        collapsed: true,
       },
       {
         text: 'Releases',
