@@ -75,6 +75,7 @@ export default defineConfig({
       level: [2, 3],
       label: '页面导航',
     },
+    logo: '/logo.ico',
     search: {
       provider: 'local'
     },
