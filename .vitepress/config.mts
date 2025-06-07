@@ -97,6 +97,10 @@ export default defineConfig({
         link: '/',
       },
       {
+        text: 'Guide',
+        link: '/guide',
+      },
+      {
         text: 'Releases',
         link: '/releases',
       },
