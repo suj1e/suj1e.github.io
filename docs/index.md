@@ -1,6 +1,7 @@
 ---
 layout: home
 
+
 hero:
   name: Flooc
   text: 欢迎👏光临
@@ -30,3 +31,5 @@ features:
     title: 浩瀚星河
     details: On my way
 ---
+
+# Index
