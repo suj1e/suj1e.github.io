@@ -50,6 +50,9 @@ jobs:
 
       - name: Build Website
         run: |
+          mkdir docs
+          mkdir public
+          cp ./vitepress/public/* public/
           cp -r dist/docs/* docs/
           cp dist/docs.json ./
 
