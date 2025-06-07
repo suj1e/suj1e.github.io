@@ -50,7 +50,10 @@ jobs:
 
       - name: Build Website
         run: |
+          mkdir docs
+          mkdir docs/public
           cp -r dist/docs/* docs/
+          cp -r .vitepress/public/* docs/public/
           cp dist/docs.json ./
           sed -i 's/^# Index//' docs/index.md
 
