@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Floocff
+  name: Flooc
   text: 欢迎👏光临
   tagline: 幸会 🫡
   image:
@@ -30,4 +30,3 @@ features:
     title: 浩瀚星河
     details: On my way
 ---
-fsdfs
