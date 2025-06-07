@@ -1,8 +1,8 @@
----
+```yaml
 layout: home
 
 hero:
-  name: Flooc
+  name: Floocff
   text: 欢迎👏光临
   tagline: 幸会 🫡
   image:
@@ -29,4 +29,4 @@ features:
   - icon: ✨
     title: 浩瀚星河
     details: On my way
----
+```
