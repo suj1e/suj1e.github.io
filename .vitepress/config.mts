@@ -69,13 +69,13 @@ export default defineConfig({
   markdown: {
     math: true,
   },
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: {
       level: [2, 3],
       label: '页面导航',
     },
+    logo: '/favicon.ico',
     search: {
       provider: 'local'
     },
