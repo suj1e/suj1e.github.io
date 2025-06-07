@@ -50,7 +50,6 @@ jobs:
 
       - name: Build Website
         run: |
-          mkdir docs
           cp -r dist/docs/* docs/
           cp dist/docs.json ./
 
