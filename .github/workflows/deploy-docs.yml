@@ -5,8 +5,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 */6 * * *'
+#  schedule:
+#    - cron: '0 */6 * * *'
 
 permissions:
   contents: write
@@ -52,8 +52,8 @@ jobs:
         run: |
           mkdir docs
           mkdir public
-          cp .vitepress/public/* public/
           cp -r dist/docs/* docs/
+          cp .vitepress/public/* docs/public/
           cp dist/docs.json ./
 
       - name: 构建文档
