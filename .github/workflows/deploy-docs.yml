@@ -50,10 +50,7 @@ jobs:
 
       - name: Build Website
         run: |
-          mkdir docs
-          mkdir docs/public
           cp -r dist/docs/* docs/
-          cp .vitepress/public/* docs/public/
           cp dist/docs.json ./
 
       - name: 构建文档
