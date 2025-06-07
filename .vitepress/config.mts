@@ -48,21 +48,21 @@ const docsSidebarZHCN = convertDocsToSidebars(docs, 'zh-CN');
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Blog',
+  title: 'Flooc',
   // title: 'Feishu Pages',
   // base: '/feishu-pages/',
   base: '/',
   ignoreDeadLinks: true,
-  // locales: {
-  //   en: {
-  //     label: 'English',
-  //     lang: 'en',
-  //   },
-  //   'zh-CN': {
-  //     label: '简体中文',
-  //     lang: 'zh-CN',
-  //   },
-  // },
+  locales: {
+    // en: {
+    //   label: 'English',
+    //   lang: 'en',
+    // },
+    'zh-CN': {
+      label: '简体中文',
+      lang: 'zh-CN',
+    },
+  },
   cleanUrls: true,
   srcExclude: ['SUMMARY.md'],
   srcDir: srcDir,
