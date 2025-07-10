@@ -45,6 +45,7 @@ const convertDocsToSidebars = (
 
 const docsSidebarEN = convertDocsToSidebars(docs, 'en');
 const docsSidebarZHCN = convertDocsToSidebars(docs, 'zh-CN');
+const docsSidebarWiki = convertDocsToSidebars(docs, 'wiki');
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -58,10 +59,14 @@ export default defineConfig({
     //   label: 'English',
     //   lang: 'en',
     // },
-    'zh-CN': {
-      label: '简体中文',
-      lang: 'zh-CN',
-    },
+    // 'zh-CN': {
+    //   label: '简体中文',
+    //   lang: 'zh-CN',
+    // },
+    'wiki': {
+      label: 'wiki',
+      lang: 'zh-CN'
+    }
   },
   cleanUrls: true,
   srcExclude: ['SUMMARY.md'],
@@ -115,7 +120,8 @@ export default defineConfig({
 
     sidebar: {
       // en: docsSidebarEN,
-      'zh-CN': docsSidebarZHCN,
+      // 'zh-CN': docsSidebarZHCN,
+      'wiki': docsSidebarWiki,
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/suj1e' },
